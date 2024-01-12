@@ -8,8 +8,17 @@
     scroll-behavior: smooth;
 }
 
+.container,
+header,
+#onMe,
+.iconsContainer,
+#projectsContainer,
+footer,
+.underFooter {
+    width: 100vw;
+}
+
 .container {
-    width: 1920px;
     height: 4155px;
 }
 
@@ -85,7 +94,6 @@
 
 
 header {
-    width: 1920px;
     height: 461px;
     background: #13E8F163;
 }
@@ -137,7 +145,6 @@ header .textHeader p {
 }
 
 #onMe {
-    width: 1920px;
     height: 715px;
 }
 
@@ -187,7 +194,6 @@ header .textHeader p {
 }
 
 #projectsContainer {
-    width: 1920;
     height: 1558px;
     background: #F6F6F6;
 }
@@ -287,43 +293,33 @@ header .textHeader p {
     text-align: center;
 }
 
+
+/* Contact */
 #conectsContainer {
     width: 100vw;
     height: 959px;
     background: #3A3A3A;
 }
 
-#conectsContainer h3 {
-    position: absolute;
-    top: 3105px;
-    left: 1481px;
-    width: 140px;
-    height: 53px;
+#conectsContainer form {
+    /* margin-top: 50px; */
+    /* margin-right: 50px; */
+    display: inline-block;
     text-align: right;
+}
+
+#conectsContainer h3 {
     font: normal normal 900 36px/53px 'Heebo';
     letter-spacing: 0px;
     color: #FFFFFF;
 }
 
 #conectsContainer p {
-    position: absolute;
-    top: 3164px;
-    left: 1067px;
     width: 548px;
     height: 58px;
-    text-align: right;
     font: normal normal normal 20px/29px 'Heebo';
     letter-spacing: 0px;
     color: #FFFFFF;
-}
-
-#conectsContainer form {
-    position: absolute;
-    top: 3269px;
-    left: 1067px;
-    width: 548px;
-    height: 399px;
-    text-align: right;
 }
 
 #conectsContainer form label {
@@ -342,10 +338,7 @@ header .textHeader p {
     height: 100px;
 }
 
-#conectsContainer button {
-    position: absolute;
-    top: 3701px;
-    left: 1450px;
+#conectsContainer input[type=button] {
     width: 166px;
     height: 50px;
     background: #1AE0EC 0% 0% no-repeat padding-box;
@@ -357,19 +350,17 @@ header .textHeader p {
 }
 
 footer {
-    width: 100vw;
     height: 200px;
     background: #1AE0EC;
+    padding-top: 60px;
 }
 
 footer nav {
-    position: absolute;
-    top: 3966px;
-    left: 367px;
     display: flex;
     flex-direction: row;
     gap: 150px;
     text-align: center;
+    margin-left: 300px;
 }
 
 footer nav p {
@@ -380,7 +371,6 @@ footer nav p {
 }
 
 .underFooter {
-    width: 1920px;
     height: 51px;
     background: #000;
     border-bottom: 6px solid #1AE0EC;
@@ -406,334 +396,4 @@ footer nav p {
     text-align: right;
     font: normal normal 300 20px/29px Heebo;
     letter-spacing: 0;
-}
-
-
-
-@media screen and (max-width: 500px) {
-
-    .container {
-        width: 100vw;
-        height: 835px;
-    }
-
-    .topNav,
-    header,
-    .iconsContainer,
-    #onMe,
-    #projectsContainer,
-    #conectsContainer,
-    .imgProjectContainer,
-    footer,
-    .underFooter {
-        width: 100vw;
-    }
-
-    .topNav .navBar {
-        display: none;
-    }
-
-    .topNav .dropdown {
-        position: absolute;
-        top: 27px;
-        left: 330px;
-        display: block;
-    }
-
-
-    .dropdown #hamburgerContainer {
-        height: 30px;
-    }
-
-    .topNav .dropdown #hamburgerContainer .hamburger {
-        display: block;
-        width: 39px;
-        height: 4px;
-        color: #1AE0EC;
-    }
-
-    /* .topNav.dropdown.dropdownContent {
-        display: none;
-    }
-
-    .dropdown:hover .dropdownContent {
-        display: block;
-    } */
-
-    .dropdownContent li {
-        text-decoration: none;
-    }
-
-    .topNav .profile {
-        left: 17px;
-    }
-
-    .topNav .profile img {
-        width: 43px;
-        height: 43px;
-        margin-top: 17px;
-    }
-
-    .topNav .profile a li {
-        font-size: 0.5rem;
-        margin-top: 35px;
-    }
-
-    header {
-        height: 331px;
-    }
-
-    header .textHeader {
-        left: 21px;
-        top: 145px;
-        width: 351px;
-        height: 190px;
-    }
-
-    header .textHeader h1 {
-        width: 260px;
-        height: 67px;
-        margin-left: 58px;
-        text-align: center;
-        font: normal normal 900 46px/67px Heebo;
-        letter-spacing: 0px;
-    }
-
-    header .textHeader p {
-        font: normal normal medium 15px/25px Heebo;
-        margin-bottom: 20px;
-    }
-
-    .btnContainer button {
-        width: 134px;
-        height: 26px;
-    }
-
-    .btnContainer {
-        width: 282px;
-        gap: 12px;
-    }
-
-    .iconsContainer {
-        width: 393px;
-        height: 111px;
-        align-items: start;
-        gap: 8px;
-    }
-
-    .iconsContainer br {
-        display: block;
-    }
-
-    .iconsContainer img {
-        width: 46px;
-        height: 46px;
-    }
-
-    #onMe {
-        height: 757px;
-    }
-
-    #onMe img {
-        top: 612px;
-        left: 131px;
-        width: 141px;
-        height: 139px;
-    }
-
-    #onMe h2 {
-        top: 781px;
-        left: 146px;
-        width: 100px;
-        height: 37px;
-        font: normal normal 900 25px/37px Heebo;
-    }
-
-    #onMe p {
-        top: 840px;
-        left: 35px;
-        width: 323px;
-        height: 286px;
-        font: normal normal normal 15px/22px Heebo;
-    }
-
-    #onMe button {
-        top: 1147px;
-        left: 129px;
-        width: 135px;
-        height: 28px;
-        font: normal normal 10px/19px Heebo;
-    }
-
-    #projectsContainer {
-        height: 3179px;
-    }
-
-    #projectsContainer h2 {
-        top: 1357px;
-        left: 107px;
-        width: 165px;
-        height: 37px;
-        font: normal normal 900 25px/37px Heebo;
-    }
-
-    #projectsContainer #mainP {
-        top: 1404px;
-        left: 20px;
-        width: 349px;
-        height: 44px;
-        font: normal normal normal 15px/22px Heebo;
-    }
-
-    #projectsContainer .gridContainer {
-        top: 1497px;
-        left: 19px;
-        width: 343px;
-        height: 2838px;
-        display: block;
-        margin-bottom: 81px;
-    }
-
-    #projectsContainer .gridContainer .card {
-        width: 342px;
-        height: 438px;
-        margin-bottom: 42px;
-    }
-
-    .card img {
-        width: 342px;
-        height: 189px;
-    }
-
-    .card h3 {
-        width: 150px;
-        height: 24px;
-        margin-left: 92px;
-        margin-top: 32px;
-        text-align: center;
-    }
-
-    .card .pCard {
-        width: 298px;
-        height: 56px;
-        margin-left: 15px;
-        font: normal normal normal 14px/22px Heebo;
-    }
-
-    .card .iconsCardContainer {
-        margin-left: 116px;
-    }
-
-    .card .iconsCardContainer img {
-        width: 22px;
-        height: 22px;
-    }
-
-    .card button {
-        margin-left: 102px;
-        margin-top: 21px;
-        width: 129px;
-        height: 25px;
-    }
-
-    #conectsContainer {
-        height: 642px;
-    }
-
-    #conectsContainer h3 {
-        top: 4619px;
-        left: 257px;
-        position: absolute;
-        width: 95px;
-        height: 37px;
-        font: normal normal 900 25px/37px 'Heebo';
-    }
-
-    #conectsContainer p {
-        top: 4665px;
-        left: 41px;
-        position: absolute;
-        width: 310px;
-        height: 44px;
-        font: normal normal normal 15px/22px 'Heebo';
-    }
-
-    #conectsContainer form {
-        top: 4741px;
-        left: 41px;
-        width: 310px;
-        height: 230px;
-    }
-
-    #conectsContainer form label {
-        width: 44px;
-        height: 18px;
-        font: normal normal bold 12px/18px 'Heebo';
-    }
-
-    #conectsContainer form input {
-        width: 310px;
-        height: 28px;
-        margin-bottom: 5px;
-    }
-
-    #conectsContainer form #lastInput {
-        height: 57px;
-    }
-
-    #conectsContainer button {
-        top: 4995px;
-        left: 257px;
-        width: 94px;
-        height: 28px;
-        font: normal normal bold 12px/16px 'Heebo';
-        letter-spacing: 0.18px;
-    }
-
-    #conectsContainer img {
-        width: 185px;
-        height: 161px;
-    }
-
-    footer {
-        height: 428px;
-    }
-
-    footer nav {
-        top: 5158px;
-        left: 30px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 20px;
-    }
-
-    footer nav p {
-        font: normal normal normal 15px/22px Heebo;
-    }
-
-    .underFooter {
-        height: 29px;
-        gap: 200px;
-    }
-
-    .underFooter p {
-        margin-top: 6px;
-    }
-
-    .underFooter .leftP {
-        width: 100px;
-        height: 13px;
-        font: normal normal normal 9px/13px Heebo;
-        letter-spacing: 0.23px;
-        margin-left: 8px;
-    }
-
-    .underFooter .rightP {
-        width: 90px;
-        height: 13px;
-        font: normal normal 300 9px/13px Heebo;
-        letter-spacing: 0px;
-        margin-right: 8px;
-    }
 }

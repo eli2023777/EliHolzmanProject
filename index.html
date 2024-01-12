@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/mobile.css">
     <script defer src="script/main.js"></script>
 </head>
 
@@ -78,13 +79,13 @@
                 ליפסום, הוא מלל
                 מקובל.</p>
             <a href="./cv.zip"><button>להורדת קורות חיים</button></a>
+
+            <!-- HTML Projects grid -->
         </section>
         <div id="projectsContainer">
             <h2>עבודות נבחרות</h2>
             <p id="mainP">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה, בתחום.
             </p>
-
-            <!-- HTML Projects grid -->
             <div class="gridContainer">
                 <div class="card"><img src="images/coffePrtSc.png" alt="Coffee">
                     <h3>Coffee</h3>
@@ -152,8 +153,7 @@
         </div>
 
         <!-- JS projects grid -->
-        <div class="gridContainer"></div>
-
+        <div id="projectsContainer"></div>
 
 
 
@@ -161,9 +161,10 @@
 
         <!-- contact -->
         <div id="conectsContainer">
-            <h3>צור קשר</h3>
-            <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכ.</p>
+            <img src="images/letter.png" alt="Letter">
             <form>
+                <h3>צור קשר</h3>
+                <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכ.</p>
                 <label>שם מלא</label><br>
                 <input type="text"><br>
                 <label>דוא"ל</label><br>
@@ -172,11 +173,11 @@
                 <input type="text"><br>
                 <label>תוכן ההודעה</label><br>
                 <input type="text" id="lastInput"><br>
-                <!-- <input type="button" value="שליחה"> -->
+                <input type="button" value="שליחה">
             </form>
-            <button>שליחה</button>
-            <img src="images/letter.png" alt="Letter">
         </div>
+
+        <!-- Footer -->
         <footer>
             <nav>
                 <!-- location -->
@@ -219,18 +220,14 @@
                 </div>
             </nav>
         </footer>
+
+        <!-- Under footer -->
         <div class="underFooter">
             <p class="leftP">Eli Holzman</p>
             <p class="rightP">כל הזכויות שמורות</p>
         </div>
     </div>
-    <script>
-        document.getElementById('hamburgerContainer').onclick = function () {
-            let box = document.getElementById('box');
-            box.innerHTML =
-                '<ul><li><a href="#conectsContainer">צור קשר</a></li><li><ahref="#projectsContainer">שירותים</ahref=></li><li><a href="#onMe">אודות</a></li><li><a href="#">ראשי</a></li><ul>';
-        };
-    </script>
+
 </body>
 
 </html>
