@@ -408,10 +408,12 @@ footer nav p {
     letter-spacing: 0;
 }
 
-@media screen and (max-width: 393px) {
+
+
+@media screen and (max-width: 414px) {
 
     .container {
-        width: 393px;
+        width: 100vw;
         height: 835px;
     }
 
