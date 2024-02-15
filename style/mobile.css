@@ -1,20 +1,20 @@
 @media screen and (max-width: 500px) {
 
     .container {
-        width: 100vw;
+        width: 100%;
         height: 835px;
     }
 
     .topNav,
     header,
-    .iconsContainer,
     #onMe,
     #projectsContainer,
     #conectsContainer,
     .imgProjectContainer,
     footer,
     .underFooter {
-        width: 100vw;
+        width: 100%;
+        margin: auto;
     }
 
     .topNav .navBar {
@@ -26,6 +26,7 @@
         top: 27px;
         left: 330px;
         display: block;
+        background-color: #000;
     }
 
 
@@ -33,24 +34,31 @@
         height: 30px;
     }
 
-    .topNav .dropdown #hamburgerContainer .hamburger {
-        display: block;
-        width: 39px;
-        height: 4px;
-        color: #1AE0EC;
-    }
 
-    /* .topNav.dropdown.dropdownContent {
+
+    .navBarMobile {
         display: none;
     }
 
-    .dropdown:hover .dropdownContent {
+    .hamburger {
         display: block;
-    } */
-
-    .dropdownContent li {
-        text-decoration: none;
+        width: 39px;
+        height: 4px;
+        color: #fff;
     }
+
+    #box {
+        width: 80px;
+        height: 80px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    #mobileUl {
+        text-decoration-line: none;
+    }
+
+
 
     .topNav .profile {
         left: 17px;
@@ -68,6 +76,7 @@
     }
 
     header {
+        width: 100%;
         height: 331px;
     }
 
@@ -103,11 +112,22 @@
     }
 
     .iconsContainer {
-        width: 393px;
-        height: 111px;
-        align-items: start;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+        flex-direction: column;
         gap: 8px;
     }
+
+    .firstRowIcons,
+    .secondRowIcons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+
+
 
     .iconsContainer br {
         display: block;
