@@ -1,5 +1,5 @@
 "use strict";
-// Purpose: To manage users in a table
+// Manage the users in a table
 const signUpBtn = document.getElementById('signUpBtn');
 const signInBtn = document.getElementById('signInBtn');
 // Array of users
@@ -13,7 +13,10 @@ const signUp = () => {
         email: document.getElementById('email').value,
         password: document.getElementById('password').value,
     };
+    // Saving user in array
     saveUserInArr(user);
+    // prevent null values
+    preventNullValues(user);
     // declare status as connected
     let status = 'Connected';
     // Create a table row
@@ -131,6 +134,13 @@ if (signUpBtn != null) {
 else {
     alert(`Couldn't find the button`);
 }
+// Prevent null values in inputs
+const preventNullValues = (user) => {
+    if (user.fName === '' || user.lName === '' || user.email === '' || user.password === '') {
+        alert('Please fill in all the fields');
+        throw new Error('Please fill in all the fields');
+    }
+};
 // Save user in array function
 const saveUserInArr = (user) => {
     userArr.push(user);
@@ -141,6 +151,11 @@ const signIn = () => {
     // Get the inputs
     const emailSI = document.getElementById('emailSI');
     const passwordSI = document.getElementById('passwordSI');
+    // Prevent null values
+    if (emailSI.value === '' || passwordSI.value === '') {
+        alert('Please fill in all the fields');
+        throw new Error('Please fill in all the fields');
+    }
     // Check if the email and password are correct
     for (let i = 1; i <= userArr.length; i++) {
         const user = userArr[i - 1]; // Type assertion

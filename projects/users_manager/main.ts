@@ -1,4 +1,4 @@
-// Purpose: To manage users in a table
+// Manage the users in a table
 const signUpBtn = document.getElementById('signUpBtn') as HTMLButtonElement;
 const signInBtn = document.getElementById('signInBtn') as HTMLButtonElement;
 
@@ -24,10 +24,14 @@ const signUp = () => {
         password: (<HTMLInputElement>document.getElementById('password')).value,
     };
 
+    // Saving user in array
     saveUserInArr(user);
+
+    // prevent null values
+    preventNullValues(user);
+
     // declare status as connected
     let status = 'Connected';
-
     // Create a table row
     const tr = document.createElement('tr');
     document.getElementById('tableBody')?.appendChild(tr);
@@ -41,6 +45,7 @@ const signUp = () => {
     <td><button class="deleteBtn">Delete</button></td>
     <td><button class="editBtn">Edit</button></td>
     `;
+
 
 
     // Delete buttons
@@ -153,6 +158,13 @@ if (signUpBtn != null) {
     alert(`Couldn't find the button`);
 }
 
+// Prevent null values in inputs
+const preventNullValues = (user: User) => {
+    if (user.fName === '' || user.lName === '' || user.email === '' || user.password === '') {
+        alert('Please fill in all the fields');
+        throw new Error('Please fill in all the fields');
+    }
+}
 
 // Save user in array function
 const saveUserInArr = (user: User) => {
@@ -166,6 +178,12 @@ const signIn = () => {
     // Get the inputs
     const emailSI = (<HTMLInputElement>document.getElementById('emailSI'));
     const passwordSI = (<HTMLInputElement>document.getElementById('passwordSI'));
+
+    // Prevent null values
+    if (emailSI.value === '' || passwordSI.value === '') {
+        alert('Please fill in all the fields');
+        throw new Error('Please fill in all the fields');
+    }
 
     // Check if the email and password are correct
     for (let i = 1; i <= userArr.length; i++) {
