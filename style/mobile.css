@@ -1,104 +1,109 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
     .container {
-        width: 100%;
         height: 835px;
     }
 
+    .container,
     .topNav,
     header,
     #onMe,
     #projectsContainer,
     #conectsContainer,
+    .iconsContainer,
     .imgProjectContainer,
     footer,
     .underFooter {
-        width: 100%;
+        width: 100vw;
         margin: auto;
     }
+
 
     .topNav .navBar {
         display: none;
     }
 
-    .topNav .dropdown {
-        position: absolute;
-        top: 27px;
-        left: 330px;
-        display: block;
-        background-color: #000;
+    .topNav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
-
-    .dropdown #hamburgerContainer {
-        height: 30px;
+    #hamburgerContainer {
+        width: 40px;
+        height: 50%;
+        /* border: 1px solid #000; */
+        margin-left: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
-
+    .navBarMobile {
+        width: 300px;
+        height: 100%;
+        border: 1px solid #000;
+        list-style-type: none;
+    }
 
     .navBarMobile {
         display: none;
     }
 
     .hamburger {
-        display: block;
+        /* display: block; */
         width: 39px;
-        height: 4px;
-        color: #fff;
+        height: 5px;
+        background-color: #13E8F163;
+        border: #0000006d solid 1px;
     }
 
-    #box {
-        width: 80px;
-        height: 80px;
-        background-color: #fff;
-        text-align: center;
-    }
 
     #mobileUl {
         text-decoration-line: none;
     }
 
 
-
     .topNav .profile {
-        left: 17px;
+        margin-left: 17px;
+        text-align: center;
+        align-items: center;
+        position: static;
+        gap: 10px;
     }
+
 
     .topNav .profile img {
+        margin-top: 0;
         width: 43px;
         height: 43px;
-        margin-top: 17px;
     }
 
-    .topNav .profile a li {
-        font-size: 0.5rem;
-        margin-top: 35px;
+    .topNav .profile li {
+        margin: auto;
+        margin-top: 10px;
     }
+
 
     header {
-        width: 100%;
         height: 331px;
     }
 
     header .textHeader {
-        left: 21px;
-        top: 145px;
         width: 351px;
         height: 190px;
+        text-align: center;
     }
 
     header .textHeader h1 {
         width: 260px;
         height: 67px;
-        margin-left: 58px;
-        text-align: center;
         font: normal normal 900 46px/67px Heebo;
         letter-spacing: 0px;
     }
 
     header .textHeader p {
         font: normal normal medium 15px/25px Heebo;
-        margin-bottom: 20px;
     }
 
     .btnContainer button {
@@ -112,7 +117,6 @@
     }
 
     .iconsContainer {
-        width: 100%;
         height: 150px;
         justify-content: center;
         flex-direction: column;

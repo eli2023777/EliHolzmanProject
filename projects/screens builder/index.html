@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screens builder</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+
+</head>
+
+<body>
+    <!-- Top content -->
+    <div class="content">
+        <h1>Screen builder</h1>
+        <p>
+            Type the desired data to see it on the screen
+        </p>
+    </div>
+    <br><br>
+
+    <div class="container">
+
+        <!-- buttons -->
+        <div class="formContainer">
+
+            <div class="buttonsBox">
+                <input type="button" value="Add to screen" id="addBtn" onclick="element()">
+            </div>
+            <!-- Inputs (form) -->
+            <form action="">
+
+                <!-- Element type -->
+                <div class="elementTypeBox">
+                    <label for="">Element type</label><br>
+                    <select name="elements" style="width: 165px;">
+                        <option value="h1" id="elementType">h1</option>
+                        <option value="h2" id="elementType">h2</option>
+                        <option value="h3" id="elementType">h3</option>
+                        <option value="p" id="elementType">p</option>
+                        <option value="div" id="elementType">div</option>
+                        <option value="span" id="elementType">span</option>
+                    </select>
+                </div>
+                <br>
+
+                <div class="colorBox">
+                    <label for="">Color</label><br>
+                    <input type="text" id="colorIn"><br>
+                    <input type="color" name="" id="colorPicker" value="#ffffff">
+                </div>
+                <br>
+
+
+                <div class="backgroundColorBox">
+                    <label for="">Background color</label><br>
+                    <input type="text" id="backgroundColorIn"><br>
+                    <input type="color" name="" id="backgroundColorPicker" value="#ffffff">
+                </div>
+                <br>
+
+
+                <div class="widthBox">
+                    <label for="">Width</label><br>
+                    <input type="text" id="widthIn">
+                </div>
+                <br>
+
+                <div class="heightBox">
+                    <label for="">Height</label><br>
+                    <input type="text" id="heightIn">
+                </div>
+                <br>
+
+
+                <div class="contentBox inputBox">
+                    <label for="">Content</label><br>
+                    <input type="text" id="contentIn" style="height: 50px;">
+                </div>
+                <br>
+
+
+                <div class="fontColorBox inputBox">
+                    <label for="">Font color</label><br>
+                    <input type="text" id="fontColorIn">
+                    <br>
+                    <input type="color" name="" id="fontColorPicker">
+                </div>
+                <br>
+                <div class="fontSizeBox">
+                    <label for="">Font size</label><br>
+                    <input type="text" id="fontSizeIn">
+                </div>
+                <br>
+                <div class="fontTypeBox">
+                    <label for="">Font type</label><br>
+                    <input type="text" id="fontTypeIn">
+                </div>
+                <br>
+
+                <!-- Border -->
+                <h3>Border:</h3><br />
+                <div class="borderWidthBox">
+                    <label for="">Border width</label><br>
+                    <input type="text" id="borderWidthIn">
+                </div>
+                <br>
+
+                <div class="borderStyleBox">
+                    <label for="">Border style</label><br>
+                    <input type="text" id="borderStyleIn">
+                </div>
+                <br>
+
+                <div class="borderColorBox">
+                    <label for="">Border color</label><br>
+                    <input type="text" id="borderColorIn">
+                    <br>
+                    <input type="color" name="" id="borderColorPicker" value="#ffffff">
+                </div>
+                <br>
+
+                <!-- margin/padding -->
+                <div class="marginBox">
+                    <label for="">margin</label><br>
+                    <input type="text" id="marginIn">
+                    <br>
+                </div>
+                <br>
+
+                <div class="paddingBox">
+                    <label for="">padding</label><br>
+                    <input type="text" id="paddingIn">
+                    <br>
+                </div>
+                <br>
+
+            </form>
+
+        </div>
+        <!-- screen -->
+        <div class="screen" id="screen"></div>
+
+    </div>
+
+</body>
+
+</html>

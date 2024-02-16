@@ -1,0 +1,2160 @@
+[
+    {
+        "name": {
+            "common": "Brunei",
+            "official": "Nation of Brunei, Abode of Peace",
+            "nativeName": {
+                "msa": {
+                    "official": "Nation of Brunei, Abode Damai",
+                    "common": "Negara Brunei Darussalam"
+                }
+            }
+        },
+        "tld": [
+            ".bn"
+        ],
+        "cca2": "BN",
+        "ccn3": "096",
+        "cca3": "BRN",
+        "cioc": "BRU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BND": {
+                "name": "Brunei dollar",
+                "symbol": "$"
+            },
+            "SGD": {
+                "name": "Singapore dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "73"
+            ]
+        },
+        "capital": [
+            "Bandar Seri Begawan"
+        ],
+        "altSpellings": [
+            "BN",
+            "Brunei Darussalam",
+            "Nation of Brunei",
+            "the Abode of Peace"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "msa": "Malay"
+        },
+        "translations": {
+            "ara": {
+                "official": "بروناي دار السلام",
+                "common": "بروناي"
+            },
+            "bre": {
+                "official": "Stad Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "ces": {
+                "official": "Sultanát Brunej",
+                "common": "Brunej"
+            },
+            "cym": {
+                "official": "Teyrnas Brwnei",
+                "common": "Brunei"
+            },
+            "deu": {
+                "official": "Sultanat Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "est": {
+                "official": "Brunei Darussalami Riik",
+                "common": "Brunei"
+            },
+            "fin": {
+                "official": "Brunei Darussalamin valtio",
+                "common": "Brunei"
+            },
+            "fra": {
+                "official": "État de Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "hrv": {
+                "official": "Nacija od Bruneja, Kuću Mira",
+                "common": "Brunej"
+            },
+            "hun": {
+                "official": "Brunei Szultanátus",
+                "common": "Brunei"
+            },
+            "ita": {
+                "official": "Nazione di Brunei, Dimora della Pace",
+                "common": "Brunei"
+            },
+            "jpn": {
+                "official": "ブルネイ、平和の精舎の国家",
+                "common": "ブルネイ・ダルサラーム"
+            },
+            "kor": {
+                "official": "브루나이 다루살람국",
+                "common": "브루나이"
+            },
+            "nld": {
+                "official": "Natie van Brunei, de verblijfplaats van de Vrede",
+                "common": "Brunei"
+            },
+            "per": {
+                "official": "برونئی سرای صلح",
+                "common": "برونئی"
+            },
+            "pol": {
+                "official": "Państwo Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "por": {
+                "official": "Nação do Brunei, Morada da Paz",
+                "common": "Brunei"
+            },
+            "rus": {
+                "official": "Нация Бруней, обитель мира",
+                "common": "Бруней"
+            },
+            "slk": {
+                "official": "Brunejský sultanât",
+                "common": "Brunej"
+            },
+            "spa": {
+                "official": "Nación de Brunei, Morada de la Paz",
+                "common": "Brunei"
+            },
+            "srp": {
+                "official": "Султанат Брунеј, боравиште мира",
+                "common": "Брунеј"
+            },
+            "swe": {
+                "official": "Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "tur": {
+                "official": "Brunei Barış Ülkesi Devleti",
+                "common": "Brunei"
+            },
+            "urd": {
+                "official": "ریاستِ برونائی دارالسلام",
+                "common": "برونائی"
+            },
+            "zho": {
+                "official": "文莱和平之国",
+                "common": "文莱"
+            }
+        },
+        "latlng": [
+            4.5,
+            114.66666666
+        ],
+        "landlocked": false,
+        "borders": [
+            "MYS"
+        ],
+        "area": 5765.0,
+        "demonyms": {
+            "eng": {
+                "f": "Bruneian",
+                "m": "Bruneian"
+            },
+            "fra": {
+                "f": "Brunéienne",
+                "m": "Brunéien"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDF3",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4jb4CqBXhr8vNh579",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2103120"
+        },
+        "population": 437483,
+        "fifa": "BRU",
+        "car": {
+            "signs": [
+                "BRU"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/bn.png",
+            "svg": "https://flagcdn.com/bn.svg",
+            "alt": "The flag of Brunei has a yellow field with two adjoining diagonal bands of white and black that extend from the upper hoist side of the field to the lower fly side. The red emblem of Brunei is centered on the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/bn.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/bn.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                4.88,
+                114.93
+            ]
+        },
+        "postalCode": {
+            "format": "@@####",
+            "regex": "^([A-Z]{2}\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Peru",
+            "official": "Republic of Peru",
+            "nativeName": {
+                "aym": {
+                    "official": "Piruw Suyu",
+                    "common": "Piruw"
+                },
+                "que": {
+                    "official": "Piruw Ripuwlika",
+                    "common": "Piruw"
+                },
+                "spa": {
+                    "official": "República del Perú",
+                    "common": "Perú"
+                }
+            }
+        },
+        "tld": [
+            ".pe"
+        ],
+        "cca2": "PE",
+        "ccn3": "604",
+        "cca3": "PER",
+        "cioc": "PER",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "PEN": {
+                "name": "Peruvian sol",
+                "symbol": "S/ "
+            }
+        },
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "Lima"
+        ],
+        "altSpellings": [
+            "PE",
+            "Republic of Peru",
+            "República del Perú"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": {
+            "aym": "Aymara",
+            "que": "Quechua",
+            "spa": "Spanish"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية بيرو",
+                "common": "بيرو"
+            },
+            "bre": {
+                "official": "Republik Perou",
+                "common": "Perou"
+            },
+            "ces": {
+                "official": "Peruánská republika",
+                "common": "Peru"
+            },
+            "cym": {
+                "official": "Republic of Peru",
+                "common": "Peru"
+            },
+            "deu": {
+                "official": "Republik Peru",
+                "common": "Peru"
+            },
+            "est": {
+                "official": "Peruu Vabariik",
+                "common": "Peruu"
+            },
+            "fin": {
+                "official": "Perun tasavalta",
+                "common": "Peru"
+            },
+            "fra": {
+                "official": "République du Pérou",
+                "common": "Pérou"
+            },
+            "hrv": {
+                "official": "Republika Peru",
+                "common": "Peru"
+            },
+            "hun": {
+                "official": "Perui Köztársaság",
+                "common": "Peru"
+            },
+            "ita": {
+                "official": "Repubblica del Perù",
+                "common": "Perù"
+            },
+            "jpn": {
+                "official": "ペルー共和国",
+                "common": "ペルー"
+            },
+            "kor": {
+                "official": "페루 공화국",
+                "common": "페루"
+            },
+            "nld": {
+                "official": "Republiek Peru",
+                "common": "Peru"
+            },
+            "per": {
+                "official": "جمهوری پرو",
+                "common": "پرو"
+            },
+            "pol": {
+                "official": "Republika Peru",
+                "common": "Peru"
+            },
+            "por": {
+                "official": "República do Peru",
+                "common": "Perú"
+            },
+            "rus": {
+                "official": "Республика Перу",
+                "common": "Перу"
+            },
+            "slk": {
+                "official": "Peruánska republika",
+                "common": "Peru"
+            },
+            "spa": {
+                "official": "República de Perú",
+                "common": "Perú"
+            },
+            "srp": {
+                "official": "Република Перу",
+                "common": "Перу"
+            },
+            "swe": {
+                "official": "Republiken Peru",
+                "common": "Peru"
+            },
+            "tur": {
+                "official": "Peru Cumhuriyeti",
+                "common": "Peru"
+            },
+            "urd": {
+                "official": "جمہوریہ پیرو",
+                "common": "پیرو"
+            },
+            "zho": {
+                "official": "秘鲁共和国",
+                "common": "秘鲁"
+            }
+        },
+        "latlng": [
+            -10.0,
+            -76.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "BOL",
+            "BRA",
+            "CHL",
+            "COL",
+            "ECU"
+        ],
+        "area": 1285216.0,
+        "demonyms": {
+            "eng": {
+                "f": "Peruvian",
+                "m": "Peruvian"
+            },
+            "fra": {
+                "f": "Péruvienne",
+                "m": "Péruvien"
+            }
+        },
+        "flag": "\uD83C\uDDF5\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/uDWEUaXNcZTng1fP6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/288247"
+        },
+        "population": 32971846,
+        "gini": {
+            "2019": 41.5
+        },
+        "fifa": "PER",
+        "car": {
+            "signs": [
+                "PE"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-05:00"
+        ],
+        "continents": [
+            "South America"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pe.png",
+            "svg": "https://flagcdn.com/pe.svg",
+            "alt": "The flag of Peru is composed of three equal vertical bands of red, white and red, with the national emblem centered in the white band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/pe.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/pe.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -12.05,
+                -77.05
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Burundi",
+            "official": "Republic of Burundi",
+            "nativeName": {
+                "fra": {
+                    "official": "République du Burundi",
+                    "common": "Burundi"
+                },
+                "run": {
+                    "official": "Republika y'Uburundi ",
+                    "common": "Uburundi"
+                }
+            }
+        },
+        "tld": [
+            ".bi"
+        ],
+        "cca2": "BI",
+        "ccn3": "108",
+        "cca3": "BDI",
+        "cioc": "BDI",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BIF": {
+                "name": "Burundian franc",
+                "symbol": "Fr"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "57"
+            ]
+        },
+        "capital": [
+            "Gitega"
+        ],
+        "altSpellings": [
+            "BI",
+            "Republic of Burundi",
+            "Republika y'Uburundi",
+            "République du Burundi"
+        ],
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": {
+            "fra": "French",
+            "run": "Kirundi"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية بوروندي",
+                "common": "بوروندي"
+            },
+            "bre": {
+                "official": "Republik Burundi",
+                "common": "Burundi"
+            },
+            "ces": {
+                "official": "Burundská republika",
+                "common": "Burundi"
+            },
+            "cym": {
+                "official": "Gweriniaeth Bwrwndi",
+                "common": "Bwrwndi"
+            },
+            "deu": {
+                "official": "Republik Burundi",
+                "common": "Burundi"
+            },
+            "est": {
+                "official": "Burundi Vabariik",
+                "common": "Burundi"
+            },
+            "fin": {
+                "official": "Burundin tasavalta",
+                "common": "Burundi"
+            },
+            "fra": {
+                "official": "République du Burundi",
+                "common": "Burundi"
+            },
+            "hrv": {
+                "official": "Burundi",
+                "common": "Burundi"
+            },
+            "hun": {
+                "official": "Burundi",
+                "common": "Burundi"
+            },
+            "ita": {
+                "official": "Repubblica del Burundi",
+                "common": "Burundi"
+            },
+            "jpn": {
+                "official": "ブルンジ共和国",
+                "common": "ブルンジ"
+            },
+            "kor": {
+                "official": "부룬디",
+                "common": "부룬디"
+            },
+            "nld": {
+                "official": "Republiek Burundi",
+                "common": "Burundi"
+            },
+            "per": {
+                "official": "جمهوری بوروندی",
+                "common": "بوروندی"
+            },
+            "pol": {
+                "official": "Republika Burundi",
+                "common": "Burundi"
+            },
+            "por": {
+                "official": "República do Burundi",
+                "common": "Burundi"
+            },
+            "rus": {
+                "official": "Республика Бурунди",
+                "common": "Бурунди"
+            },
+            "slk": {
+                "official": "Burundská republika",
+                "common": "Burundi"
+            },
+            "spa": {
+                "official": "República de Burundi",
+                "common": "Burundi"
+            },
+            "srp": {
+                "official": "Република Бурунди",
+                "common": "Бурунди"
+            },
+            "swe": {
+                "official": "Republiken Burundi",
+                "common": "Burundi"
+            },
+            "tur": {
+                "official": "Burundi Cumhuriyeti",
+                "common": "Burundi"
+            },
+            "urd": {
+                "official": "جمہوریہ برونڈی",
+                "common": "برونڈی"
+            },
+            "zho": {
+                "official": "布隆迪共和国",
+                "common": "布隆迪"
+            }
+        },
+        "latlng": [
+            -3.5,
+            30.0
+        ],
+        "landlocked": true,
+        "borders": [
+            "COD",
+            "RWA",
+            "TZA"
+        ],
+        "area": 27834.0,
+        "demonyms": {
+            "eng": {
+                "f": "Burundian",
+                "m": "Burundian"
+            },
+            "fra": {
+                "f": "Burundaise",
+                "m": "Burundais"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDEE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/195269"
+        },
+        "population": 11890781,
+        "gini": {
+            "2013": 38.6
+        },
+        "fifa": "BDI",
+        "car": {
+            "signs": [
+                "RU"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Africa"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/bi.png",
+            "svg": "https://flagcdn.com/bi.svg",
+            "alt": "The flag of Burundi is divided by a white diagonal cross into four alternating triangular areas of red at the top and bottom, and green on the hoist and fly sides. A white circle, with three green-edged red six-pointed stars arranged to form a triangle, is superimposed at the center of the cross."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/bi.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/bi.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -3.43,
+                29.93
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Russia",
+            "official": "Russian Federation",
+            "nativeName": {
+                "rus": {
+                    "official": "Российская Федерация",
+                    "common": "Россия"
+                }
+            }
+        },
+        "tld": [
+            ".ru",
+            ".su",
+            ".рф"
+        ],
+        "cca2": "RU",
+        "ccn3": "643",
+        "cca3": "RUS",
+        "cioc": "RUS",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "RUB": {
+                "name": "Russian ruble",
+                "symbol": "₽"
+            }
+        },
+        "idd": {
+            "root": "+7",
+            "suffixes": [
+                "3",
+                "4",
+                "5",
+                "8",
+                "9"
+            ]
+        },
+        "capital": [
+            "Moscow"
+        ],
+        "altSpellings": [
+            "RU",
+            "Russian Federation",
+            "Российская Федерация"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": {
+            "rus": "Russian"
+        },
+        "translations": {
+            "ara": {
+                "official": "روسيا الاتحادية",
+                "common": "روسيا"
+            },
+            "bre": {
+                "official": "Kevread Rusia",
+                "common": "Rusia"
+            },
+            "ces": {
+                "official": "Ruská federace",
+                "common": "Rusko"
+            },
+            "cym": {
+                "official": "Russian Federation",
+                "common": "Russia"
+            },
+            "deu": {
+                "official": "Russische Föderation",
+                "common": "Russland"
+            },
+            "est": {
+                "official": "Venemaa Föderatsioon",
+                "common": "Venemaa"
+            },
+            "fin": {
+                "official": "Venäjän federaatio",
+                "common": "Venäjä"
+            },
+            "fra": {
+                "official": "Fédération de Russie",
+                "common": "Russie"
+            },
+            "hrv": {
+                "official": "Ruska Federacija",
+                "common": "Rusija"
+            },
+            "hun": {
+                "official": "Oroszországi Föderáció",
+                "common": "Oroszország"
+            },
+            "ita": {
+                "official": "Federazione russa",
+                "common": "Russia"
+            },
+            "jpn": {
+                "official": "ロシア連邦",
+                "common": "ロシア連邦"
+            },
+            "kor": {
+                "official": "러시아 연방",
+                "common": "러시아"
+            },
+            "nld": {
+                "official": "Russische Federatie",
+                "common": "Rusland"
+            },
+            "per": {
+                "official": "فدراسیون روسیه",
+                "common": "روسیه"
+            },
+            "pol": {
+                "official": "Federacja Rosyjska",
+                "common": "Rosja"
+            },
+            "por": {
+                "official": "Federação Russa",
+                "common": "Rússia"
+            },
+            "rus": {
+                "official": "Российская Федерация",
+                "common": "Россия"
+            },
+            "slk": {
+                "official": "Ruská federácia",
+                "common": "Rusko"
+            },
+            "spa": {
+                "official": "Federación de Rusia",
+                "common": "Rusia"
+            },
+            "srp": {
+                "official": "Руска Федерација",
+                "common": "Русија"
+            },
+            "swe": {
+                "official": "Ryska federationen",
+                "common": "Ryssland"
+            },
+            "tur": {
+                "official": "Rusya Federasyonu",
+                "common": "Rusya"
+            },
+            "urd": {
+                "official": "روسی وفاق",
+                "common": "روس"
+            },
+            "zho": {
+                "official": "俄罗斯联邦",
+                "common": "俄罗斯"
+            }
+        },
+        "latlng": [
+            60.0,
+            100.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "AZE",
+            "BLR",
+            "CHN",
+            "EST",
+            "FIN",
+            "GEO",
+            "KAZ",
+            "PRK",
+            "LVA",
+            "LTU",
+            "MNG",
+            "NOR",
+            "POL",
+            "UKR"
+        ],
+        "area": 1.7098242E7,
+        "demonyms": {
+            "eng": {
+                "f": "Russian",
+                "m": "Russian"
+            },
+            "fra": {
+                "f": "Russe",
+                "m": "Russe"
+            }
+        },
+        "flag": "\uD83C\uDDF7\uD83C\uDDFA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4F4PpDhGJgVvLby57",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29"
+        },
+        "population": 144104080,
+        "gini": {
+            "2018": 37.5
+        },
+        "fifa": "RUS",
+        "car": {
+            "signs": [
+                "RUS"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+03:00",
+            "UTC+04:00",
+            "UTC+06:00",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:00",
+            "UTC+10:00",
+            "UTC+11:00",
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Europe",
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ru.png",
+            "svg": "https://flagcdn.com/ru.svg",
+            "alt": "The flag of Russia is composed of three equal horizontal bands of white, blue and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ru.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ru.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                55.75,
+                37.6
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Nauru",
+            "official": "Republic of Nauru",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Nauru",
+                    "common": "Nauru"
+                },
+                "nau": {
+                    "official": "Republic of Nauru",
+                    "common": "Nauru"
+                }
+            }
+        },
+        "tld": [
+            ".nr"
+        ],
+        "cca2": "NR",
+        "ccn3": "520",
+        "cca3": "NRU",
+        "cioc": "NRU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "74"
+            ]
+        },
+        "capital": [
+            "Yaren"
+        ],
+        "altSpellings": [
+            "NR",
+            "Naoero",
+            "Pleasant Island",
+            "Republic of Nauru",
+            "Ripublik Naoero"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "eng": "English",
+            "nau": "Nauru"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية ناورو",
+                "common": "ناورو"
+            },
+            "bre": {
+                "official": "Republik Nauru",
+                "common": "Nauru"
+            },
+            "ces": {
+                "official": "Republika Nauru",
+                "common": "Nauru"
+            },
+            "cym": {
+                "official": "Republic of Nauru",
+                "common": "Nauru"
+            },
+            "deu": {
+                "official": "Republik Nauru",
+                "common": "Nauru"
+            },
+            "est": {
+                "official": "Nauru Vabariik",
+                "common": "Nauru"
+            },
+            "fin": {
+                "official": "Naurun tasavalta",
+                "common": "Nauru"
+            },
+            "fra": {
+                "official": "République de Nauru",
+                "common": "Nauru"
+            },
+            "hrv": {
+                "official": "Republika Nauru",
+                "common": "Nauru"
+            },
+            "hun": {
+                "official": "Naurui Köztársaság",
+                "common": "Nauru"
+            },
+            "ita": {
+                "official": "Repubblica di Nauru",
+                "common": "Nauru"
+            },
+            "jpn": {
+                "official": "ナウル共和国",
+                "common": "ナウル"
+            },
+            "kor": {
+                "official": "나우루 공화국",
+                "common": "나우루"
+            },
+            "nld": {
+                "official": "Republiek Nauru",
+                "common": "Nauru"
+            },
+            "per": {
+                "official": "جمهوری نائورو",
+                "common": "نائورو"
+            },
+            "pol": {
+                "official": "Republika Nauru",
+                "common": "Nauru"
+            },
+            "por": {
+                "official": "República de Nauru",
+                "common": "Nauru"
+            },
+            "rus": {
+                "official": "Республика Науру",
+                "common": "Науру"
+            },
+            "slk": {
+                "official": "Naurská republika",
+                "common": "Nauru"
+            },
+            "spa": {
+                "official": "República de Nauru",
+                "common": "Nauru"
+            },
+            "srp": {
+                "official": "Република Науру",
+                "common": "Науру"
+            },
+            "swe": {
+                "official": "Republiken Nauru",
+                "common": "Nauru"
+            },
+            "tur": {
+                "official": "Nauru Cumhuriyeti",
+                "common": "Nauru"
+            },
+            "urd": {
+                "official": "جمہوریہ ناورو",
+                "common": "ناورو"
+            },
+            "zho": {
+                "official": "瑙鲁共和国",
+                "common": "瑙鲁"
+            }
+        },
+        "latlng": [
+            -0.53333333,
+            166.91666666
+        ],
+        "landlocked": false,
+        "area": 21.0,
+        "demonyms": {
+            "eng": {
+                "f": "Nauruan",
+                "m": "Nauruan"
+            },
+            "fra": {
+                "f": "Nauruane",
+                "m": "Nauruan"
+            }
+        },
+        "flag": "\uD83C\uDDF3\uD83C\uDDF7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571804"
+        },
+        "population": 10834,
+        "gini": {
+            "2012": 34.8
+        },
+        "car": {
+            "signs": [
+                "NAU"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nr.png",
+            "svg": "https://flagcdn.com/nr.svg",
+            "alt": "The flag of Nauru has a dark blue field with a thin yellow horizontal band across the center and a large white twelve-pointed star beneath the horizontal band on the hoist side of the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/nr.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/nr.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -0.55,
+                166.92
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Uruguay",
+            "official": "Oriental Republic of Uruguay",
+            "nativeName": {
+                "spa": {
+                    "official": "República Oriental del Uruguay",
+                    "common": "Uruguay"
+                }
+            }
+        },
+        "tld": [
+            ".uy"
+        ],
+        "cca2": "UY",
+        "ccn3": "858",
+        "cca3": "URY",
+        "cioc": "URU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "UYU": {
+                "name": "Uruguayan peso",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "98"
+            ]
+        },
+        "capital": [
+            "Montevideo"
+        ],
+        "altSpellings": [
+            "UY",
+            "Oriental Republic of Uruguay",
+            "República Oriental del Uruguay"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": {
+            "spa": "Spanish"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية الأوروغواي الشرقية",
+                "common": "الأوروغواي"
+            },
+            "bre": {
+                "official": "Republik Reter Uruguay",
+                "common": "Uruguay"
+            },
+            "ces": {
+                "official": "Uruguayská východní republika",
+                "common": "Uruguay"
+            },
+            "cym": {
+                "official": "Oriental Republic of Uruguay",
+                "common": "Uruguay"
+            },
+            "deu": {
+                "official": "Republik Östlich des Uruguay",
+                "common": "Uruguay"
+            },
+            "est": {
+                "official": "Uruguay Idavabariik",
+                "common": "Uruguay"
+            },
+            "fin": {
+                "official": "Uruguayn itäinen tasavalta",
+                "common": "Uruguay"
+            },
+            "fra": {
+                "official": "République orientale de l'Uruguay",
+                "common": "Uruguay"
+            },
+            "hrv": {
+                "official": "Orijentalna Republika Urugvaj",
+                "common": "Urugvaj"
+            },
+            "hun": {
+                "official": "Uruguayi Keleti Köztársaság",
+                "common": "Uruguay"
+            },
+            "ita": {
+                "official": "Repubblica Orientale dell'Uruguay",
+                "common": "Uruguay"
+            },
+            "jpn": {
+                "official": "ウルグアイ東方共和国",
+                "common": "ウルグアイ"
+            },
+            "kor": {
+                "official": "우루과이 동방 공화국",
+                "common": "우루과이"
+            },
+            "nld": {
+                "official": "Oosterse Republiek Uruguay",
+                "common": "Uruguay"
+            },
+            "per": {
+                "official": "جمهوری اروگوئه",
+                "common": "اروگوئه"
+            },
+            "pol": {
+                "official": "Wschodnia Republika Urugwaju",
+                "common": "Urugwaj"
+            },
+            "por": {
+                "official": "República Oriental do Uruguai",
+                "common": "Uruguai"
+            },
+            "rus": {
+                "official": "Восточной Республики Уругвай",
+                "common": "Уругвай"
+            },
+            "slk": {
+                "official": "Uruguajská východná republika",
+                "common": "Uruguaj"
+            },
+            "spa": {
+                "official": "República Oriental del Uruguay",
+                "common": "Uruguay"
+            },
+            "srp": {
+                "official": "Источна Република Уругвај",
+                "common": "Уругвај"
+            },
+            "swe": {
+                "official": "Republiken Uruguay",
+                "common": "Uruguay"
+            },
+            "tur": {
+                "official": "Uruguay Doğu Cumhuriyeti",
+                "common": "Uruguay"
+            },
+            "urd": {
+                "official": "جمہوریہ شرقیہ یوراگوئے",
+                "common": "یوراگوئے"
+            },
+            "zho": {
+                "official": "乌拉圭东岸共和国",
+                "common": "乌拉圭"
+            }
+        },
+        "latlng": [
+            -33.0,
+            -56.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "ARG",
+            "BRA"
+        ],
+        "area": 181034.0,
+        "demonyms": {
+            "eng": {
+                "f": "Uruguayan",
+                "m": "Uruguayan"
+            },
+            "fra": {
+                "f": "Uruguayenne",
+                "m": "Uruguayen"
+            }
+        },
+        "flag": "\uD83C\uDDFA\uD83C\uDDFE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/287072"
+        },
+        "population": 3473727,
+        "gini": {
+            "2019": 39.7
+        },
+        "fifa": "URU",
+        "car": {
+            "signs": [
+                "ROU"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-03:00"
+        ],
+        "continents": [
+            "South America"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/uy.png",
+            "svg": "https://flagcdn.com/uy.svg",
+            "alt": "The flag of Uruguay is composed of nine equal horizontal bands of white alternating with blue, with a white square superimposed in the canton. In the white square is a yellow sun bearing a human face — the Sun of May — from which sixteen rays extend. The sun's rays alternate between triangular and wavy."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/uy.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/uy.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -34.85,
+                -56.17
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Belarus",
+            "official": "Republic of Belarus",
+            "nativeName": {
+                "bel": {
+                    "official": "Рэспубліка Беларусь",
+                    "common": "Белару́сь"
+                },
+                "rus": {
+                    "official": "Республика Беларусь",
+                    "common": "Беларусь"
+                }
+            }
+        },
+        "tld": [
+            ".by"
+        ],
+        "cca2": "BY",
+        "ccn3": "112",
+        "cca3": "BLR",
+        "cioc": "BLR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BYN": {
+                "name": "Belarusian ruble",
+                "symbol": "Br"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "75"
+            ]
+        },
+        "capital": [
+            "Minsk"
+        ],
+        "altSpellings": [
+            "BY",
+            "Bielaruś",
+            "Republic of Belarus",
+            "Белоруссия",
+            "Республика Белоруссия"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": {
+            "bel": "Belarusian",
+            "rus": "Russian"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية بيلاروسيا",
+                "common": "بيلاروسيا"
+            },
+            "bre": {
+                "official": "Republik Belarus",
+                "common": "Belarus"
+            },
+            "ces": {
+                "official": "Běloruská republika",
+                "common": "Bělorusko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Belarws",
+                "common": "Belarws"
+            },
+            "deu": {
+                "official": "Republik Belarus",
+                "common": "Weißrussland"
+            },
+            "est": {
+                "official": "Valgevene Vabariik",
+                "common": "Valgevene"
+            },
+            "fin": {
+                "official": "Valko-Venäjän tasavalta",
+                "common": "Valko-Venäjä"
+            },
+            "fra": {
+                "official": "République de Biélorussie",
+                "common": "Biélorussie"
+            },
+            "hrv": {
+                "official": "Republika Bjelorusija",
+                "common": "Bjelorusija"
+            },
+            "hun": {
+                "official": "Fehérorosz Köztársaság",
+                "common": "Fehéroroszország"
+            },
+            "ita": {
+                "official": "Repubblica di Belarus",
+                "common": "Bielorussia"
+            },
+            "jpn": {
+                "official": "ベラルーシ共和国",
+                "common": "ベラルーシ"
+            },
+            "kor": {
+                "official": "벨라루스 공화국",
+                "common": "벨라루스"
+            },
+            "nld": {
+                "official": "Republiek Belarus",
+                "common": "Wit-Rusland"
+            },
+            "per": {
+                "official": "جمهوری بلاروس",
+                "common": "بلاروس"
+            },
+            "pol": {
+                "official": "Republika Białorusi",
+                "common": "Białoruś"
+            },
+            "por": {
+                "official": "República da Bielorrússia",
+                "common": "Bielorússia"
+            },
+            "rus": {
+                "official": "Республика Беларусь",
+                "common": "Беларусь"
+            },
+            "slk": {
+                "official": "Bieloruská republika",
+                "common": "Bielorusko"
+            },
+            "spa": {
+                "official": "República de Belarús",
+                "common": "Bielorrusia"
+            },
+            "srp": {
+                "official": "Република Белорусија",
+                "common": "Белорусија"
+            },
+            "swe": {
+                "official": "Republiken Vitryssland",
+                "common": "Belarus"
+            },
+            "tur": {
+                "official": "Belarus Cumhuriyeti",
+                "common": "Belarus"
+            },
+            "urd": {
+                "official": "جمہوریہ بیلاروس",
+                "common": "بیلاروس"
+            },
+            "zho": {
+                "official": "白俄罗斯共和国",
+                "common": "白俄罗斯"
+            }
+        },
+        "latlng": [
+            53.0,
+            28.0
+        ],
+        "landlocked": true,
+        "borders": [
+            "LVA",
+            "LTU",
+            "POL",
+            "RUS",
+            "UKR"
+        ],
+        "area": 207600.0,
+        "demonyms": {
+            "eng": {
+                "f": "Belarusian",
+                "m": "Belarusian"
+            },
+            "fra": {
+                "f": "Biélorusse",
+                "m": "Biélorusse"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDFE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/59065"
+        },
+        "population": 9398861,
+        "gini": {
+            "2019": 25.3
+        },
+        "fifa": "BLR",
+        "car": {
+            "signs": [
+                "BY"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+03:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/by.png",
+            "svg": "https://flagcdn.com/by.svg",
+            "alt": "The flag of Belarus features a vertical band, with a white and red ornamental pattern, spanning about one-fifth the width of the field on the hoist side. Adjoining the vertical band are two horizontal bands of red and green, with the red band twice the height of the green band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/by.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/by.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                53.9,
+                27.57
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Aruba",
+            "official": "Aruba",
+            "nativeName": {
+                "nld": {
+                    "official": "Aruba",
+                    "common": "Aruba"
+                },
+                "pap": {
+                    "official": "Aruba",
+                    "common": "Aruba"
+                }
+            }
+        },
+        "tld": [
+            ".aw"
+        ],
+        "cca2": "AW",
+        "ccn3": "533",
+        "cca3": "ABW",
+        "cioc": "ARU",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "AWG": {
+                "name": "Aruban florin",
+                "symbol": "ƒ"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "97"
+            ]
+        },
+        "capital": [
+            "Oranjestad"
+        ],
+        "altSpellings": [
+            "AW"
+        ],
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": {
+            "nld": "Dutch",
+            "pap": "Papiamento"
+        },
+        "translations": {
+            "ara": {
+                "official": "أروبا",
+                "common": "أروبا"
+            },
+            "bre": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "ces": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "cym": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "deu": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "est": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "fin": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "fra": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "hrv": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "hun": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "ita": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "jpn": {
+                "official": "アルバ",
+                "common": "アルバ"
+            },
+            "kor": {
+                "official": "아루바",
+                "common": "아루바"
+            },
+            "nld": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "per": {
+                "official": "آروبا",
+                "common": "آروبا"
+            },
+            "pol": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "por": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "rus": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "slk": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "spa": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "srp": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "swe": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "tur": {
+                "official": "Aruba",
+                "common": "Aruba"
+            },
+            "urd": {
+                "official": "اروبا",
+                "common": "اروبا"
+            },
+            "zho": {
+                "official": "阿鲁巴",
+                "common": "阿鲁巴"
+            }
+        },
+        "latlng": [
+            12.5,
+            -69.96666666
+        ],
+        "landlocked": false,
+        "area": 180.0,
+        "demonyms": {
+            "eng": {
+                "f": "Aruban",
+                "m": "Aruban"
+            },
+            "fra": {
+                "f": "Arubaise",
+                "m": "Arubais"
+            }
+        },
+        "flag": "\uD83C\uDDE6\uD83C\uDDFC",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/8hopbQqifHAgyZyg8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1231749"
+        },
+        "population": 106766,
+        "fifa": "ARU",
+        "car": {
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "continents": [
+            "North America"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/aw.png",
+            "svg": "https://flagcdn.com/aw.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/aw.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/aw.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                12.52,
+                -70.03
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Romania",
+            "official": "Romania",
+            "nativeName": {
+                "ron": {
+                    "official": "România",
+                    "common": "România"
+                }
+            }
+        },
+        "tld": [
+            ".ro"
+        ],
+        "cca2": "RO",
+        "ccn3": "642",
+        "cca3": "ROU",
+        "cioc": "ROU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "RON": {
+                "name": "Romanian leu",
+                "symbol": "lei"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "0"
+            ]
+        },
+        "capital": [
+            "Bucharest"
+        ],
+        "altSpellings": [
+            "RO",
+            "Rumania",
+            "Roumania",
+            "România"
+        ],
+        "region": "Europe",
+        "subregion": "Southeast Europe",
+        "languages": {
+            "ron": "Romanian"
+        },
+        "translations": {
+            "ara": {
+                "official": "رومانيا",
+                "common": "رومانيا"
+            },
+            "bre": {
+                "official": "Roumania",
+                "common": "Roumania"
+            },
+            "ces": {
+                "official": "Rumunsko",
+                "common": "Rumunsko"
+            },
+            "cym": {
+                "official": "Romania",
+                "common": "Romania"
+            },
+            "deu": {
+                "official": "Rumänien",
+                "common": "Rumänien"
+            },
+            "est": {
+                "official": "Rumeenia",
+                "common": "Rumeenia"
+            },
+            "fin": {
+                "official": "Romania",
+                "common": "Romania"
+            },
+            "fra": {
+                "official": "Roumanie",
+                "common": "Roumanie"
+            },
+            "hrv": {
+                "official": "Rumunija",
+                "common": "Rumunjska"
+            },
+            "hun": {
+                "official": "Románia",
+                "common": "Románia"
+            },
+            "ita": {
+                "official": "Romania",
+                "common": "Romania"
+            },
+            "jpn": {
+                "official": "ルーマニア",
+                "common": "ルーマニア"
+            },
+            "kor": {
+                "official": "루마니아",
+                "common": "루마니아"
+            },
+            "nld": {
+                "official": "Roemenië",
+                "common": "Roemenië"
+            },
+            "per": {
+                "official": "رومانی",
+                "common": "رومانی"
+            },
+            "pol": {
+                "official": "Rumunia",
+                "common": "Rumunia"
+            },
+            "por": {
+                "official": "Romênia",
+                "common": "Roménia"
+            },
+            "rus": {
+                "official": "Румыния",
+                "common": "Румыния"
+            },
+            "slk": {
+                "official": "Rumunsko",
+                "common": "Rumunsko"
+            },
+            "spa": {
+                "official": "Rumania",
+                "common": "Rumania"
+            },
+            "srp": {
+                "official": "Румунија",
+                "common": "Румунија"
+            },
+            "swe": {
+                "official": "Rumänien",
+                "common": "Rumänien"
+            },
+            "tur": {
+                "official": "Romanya",
+                "common": "Romanya"
+            },
+            "urd": {
+                "official": "رومانیہ",
+                "common": "رومانیہ"
+            },
+            "zho": {
+                "official": "罗马尼亚",
+                "common": "罗马尼亚"
+            }
+        },
+        "latlng": [
+            46.0,
+            25.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "BGR",
+            "HUN",
+            "MDA",
+            "SRB",
+            "UKR"
+        ],
+        "area": 238391.0,
+        "demonyms": {
+            "eng": {
+                "f": "Romanian",
+                "m": "Romanian"
+            },
+            "fra": {
+                "f": "Roumaine",
+                "m": "Roumain"
+            }
+        },
+        "flag": "\uD83C\uDDF7\uD83C\uDDF4",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/845hAgCf1mDkN3vr7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/90689"
+        },
+        "population": 19286123,
+        "gini": {
+            "2018": 35.8
+        },
+        "fifa": "ROU",
+        "car": {
+            "signs": [
+                "RO"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ro.png",
+            "svg": "https://flagcdn.com/ro.svg",
+            "alt": "The flag of Romania is composed of three equal vertical bands of navy blue, yellow and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ro.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ro.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                44.43,
+                26.1
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus",
+            "nativeName": {
+                "ell": {
+                    "official": "Δημοκρατία της Κύπρος",
+                    "common": "Κύπρος"
+                },
+                "tur": {
+                    "official": "Kıbrıs Cumhuriyeti",
+                    "common": "Kıbrıs"
+                }
+            }
+        },
+        "tld": [
+            ".cy"
+        ],
+        "cca2": "CY",
+        "ccn3": "196",
+        "cca3": "CYP",
+        "cioc": "CYP",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "57"
+            ]
+        },
+        "capital": [
+            "Nicosia"
+        ],
+        "altSpellings": [
+            "CY",
+            "Kýpros",
+            "Kıbrıs",
+            "Republic of Cyprus",
+            "Κυπριακή Δημοκρατία",
+            "Kıbrıs Cumhuriyeti"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": {
+            "ell": "Greek",
+            "tur": "Turkish"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية قبرص",
+                "common": "قبرص"
+            },
+            "bre": {
+                "official": "Republik Kiprenez",
+                "common": "Kiprenez"
+            },
+            "ces": {
+                "official": "Kyperská republika",
+                "common": "Kypr"
+            },
+            "cym": {
+                "official": "Gweriniaeth Cyprus",
+                "common": "Cyprus"
+            },
+            "deu": {
+                "official": "Republik Zypern",
+                "common": "Zypern"
+            },
+            "est": {
+                "official": "Küprose Vabariik",
+                "common": "Küpros"
+            },
+            "fin": {
+                "official": "Kyproksen tasavalta",
+                "common": "Kypros"
+            },
+            "fra": {
+                "official": "République de Chypre",
+                "common": "Chypre"
+            },
+            "hrv": {
+                "official": "Republika Cipar",
+                "common": "Cipar"
+            },
+            "hun": {
+                "official": "Ciprusi Köztársaság",
+                "common": "Ciprus"
+            },
+            "ita": {
+                "official": "Repubblica di Cipro",
+                "common": "Cipro"
+            },
+            "jpn": {
+                "official": "キプロス共和国",
+                "common": "キプロス"
+            },
+            "kor": {
+                "official": "키프로스 공화국",
+                "common": "키프로스"
+            },
+            "nld": {
+                "official": "Republiek Cyprus",
+                "common": "Cyprus"
+            },
+            "per": {
+                "official": "جمهوری قبرس",
+                "common": "قِبرِس"
+            },
+            "pol": {
+                "official": "Republika Cypryjska",
+                "common": "Cypr"
+            },
+            "por": {
+                "official": "República de Chipre",
+                "common": "Chipre"
+            },
+            "rus": {
+                "official": "Республика Кипр",
+                "common": "Кипр"
+            },
+            "slk": {
+                "official": "Cyperská republika",
+                "common": "Cyprus"
+            },
+            "spa": {
+                "official": "República de Chipre",
+                "common": "Chipre"
+            },
+            "srp": {
+                "official": "Кипарска Република",
+                "common": "Кипар"
+            },
+            "swe": {
+                "official": "Republiken Cypern",
+                "common": "Cypern"
+            },
+            "tur": {
+                "official": "Kıbrıs Cumhuriyeti",
+                "common": "Kıbrıs"
+            },
+            "urd": {
+                "official": "جمہوریہ قبرص",
+                "common": "قبرص"
+            },
+            "zho": {
+                "official": "塞浦路斯共和国",
+                "common": "塞浦路斯"
+            }
+        },
+        "latlng": [
+            35.0,
+            33.0
+        ],
+        "landlocked": false,
+        "area": 9251.0,
+        "demonyms": {
+            "eng": {
+                "f": "Cypriot",
+                "m": "Cypriot"
+            },
+            "fra": {
+                "f": "Chypriote",
+                "m": "Chypriote"
+            }
+        },
+        "flag": "\uD83C\uDDE8\uD83C\uDDFE",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/307787"
+        },
+        "population": 1207361,
+        "gini": {
+            "2018": 32.7
+        },
+        "fifa": "CYP",
+        "car": {
+            "signs": [
+                "CY"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cy.png",
+            "svg": "https://flagcdn.com/cy.svg",
+            "alt": "The flag of Cyprus has a white field, at the center of which is a copper-colored silhouette of the Island of Cyprus above two green olive branches crossed at the stem."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/cy.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/cy.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                35.17,
+                33.37
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    }
+]
