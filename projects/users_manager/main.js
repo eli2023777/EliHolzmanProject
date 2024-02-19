@@ -2,17 +2,11 @@
 // Manage the users in a table
 const signUpBtn = document.getElementById('signUpBtn');
 const signInBtn = document.getElementById('signInBtn');
-// Array of users
 const userArr = [];
+let users = localStorage.getItem('users');
 // Sign Up function
-const signUp = () => {
+const signUp = (user) => {
     var _a;
-    const user = {
-        fName: document.getElementById('fName').value,
-        lName: document.getElementById('lName').value,
-        email: document.getElementById('email').value,
-        password: document.getElementById('password').value,
-    };
     // Saving user in array
     saveUserInArr(user);
     // prevent null values
@@ -91,6 +85,7 @@ const signUp = () => {
             else {
                 alert(`Couldn't find the last name`);
             }
+            ;
             const emailCell = tr.querySelector('.emailCell');
             if (user.email !== null) {
                 if (emailCell != null) {
@@ -125,9 +120,24 @@ const signUp = () => {
     document.getElementById('email').value = '';
     document.getElementById('password').value = '';
 };
+console.log(userArr);
+if (users !== null) {
+    JSON.parse(users);
+    for (let i = 0; i <= users.length; i++) {
+        let user = users[i];
+        console.log(`user: ${user}`);
+        signUp(user);
+    }
+}
 if (signUpBtn != null) {
     signUpBtn.addEventListener('click', () => {
-        signUp();
+        const user = {
+            fName: document.getElementById('fName').value,
+            lName: document.getElementById('lName').value,
+            email: document.getElementById('email').value,
+            password: document.getElementById('password').value,
+        };
+        signUp(user);
         console.log(userArr);
     });
 }
@@ -144,6 +154,9 @@ const preventNullValues = (user) => {
 // Save user in array function
 const saveUserInArr = (user) => {
     userArr.push(user);
+    console.log(userArr);
+    // Save in local storage 
+    localStorage.setItem('users', JSON.stringify(userArr));
     return userArr;
 };
 // Sign In function
@@ -174,6 +187,7 @@ const signIn = () => {
             alert(`Email or password is incorrect, please try again!`);
         }
     }
+    // localStorage.setItem('users', JSON.stringify(userArr));
 };
 if (signInBtn != null) {
     signInBtn.addEventListener('click', () => {

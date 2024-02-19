@@ -8,15 +8,20 @@
     scroll-behavior: smooth;
 }
 
-.container,
 .topNav,
 header,
 #onMe,
 .iconsContainer,
 #projectsContainer,
+#conectsContainer,
 footer,
 .underFooter {
     width: 100vw;
+}
+
+.container {
+    width: 100vw;
+    /* overflow-x: hidden; */
 }
 
 
@@ -24,12 +29,13 @@ footer,
     top: 0;
     height: 80px;
     position: sticky;
-    background: #FFFFFF;
+    background-color: #fcfcfc;
     z-index: 2;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 52%;
+    gap: 45vw;
+
 }
 
 .topNav .profile {
@@ -58,15 +64,13 @@ footer,
 .topNav .navBar {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     list-style-type: none;
 }
 
 
 .topNav .navBar li {
-    width: 150px;
-    height: 37px;
+    width: 120px;
+    height: 100%;
     text-align: center;
     font: normal normal normal 25px/37px 'Heebo';
 }
@@ -114,7 +118,6 @@ header .textHeader p {
 }
 
 .iconsContainer {
-    width: 100%;
     height: 130px;
     box-shadow: 0px 3px 6px #00000029;
     display: flex;
@@ -171,6 +174,13 @@ header .textHeader p {
     font: normal normal bold 20px/30px 'Heebo';
     letter-spacing: 0.3px;
     color: #3A3A3A;
+    box-shadow: #000 0 2px 2px;
+    cursor: pointer;
+}
+
+.textOnMe button:hover {
+    width: 265px;
+    height: 45px;
 }
 
 #projectsContainer {
@@ -211,10 +221,18 @@ header .textHeader p {
     border-radius: 10px;
 }
 
+
 .card img {
     width: 405px;
     height: 223px;
     border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.card img:hover {
+    width: 100%;
+    height: 100%;
 }
 
 .card h3 {
@@ -240,15 +258,17 @@ header .textHeader p {
 }
 
 .iconsCardContainer {
-    margin-left: 139px;
+    /* margin-left: 139px; */
     display: flex;
     flex-direction: row;
     gap: 6px;
+    justify-content: center;
 }
 
 .iconsCardContainer img {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
+    border: #75727223 solid 1px;
 }
 
 .card button {
@@ -262,6 +282,13 @@ header .textHeader p {
     letter-spacing: 0px;
     color: #2C2C2C;
     text-align: center;
+    box-shadow: #000 0 2px 2px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    width: 156px;
+    height: 32px;
 }
 
 
@@ -271,35 +298,40 @@ header .textHeader p {
     background: #3A3A3A;
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 10vw;
     align-items: center;
+    text-align: right;
 }
 
-#conectsContainer img {
-    width: 700px;
-    height: 700px;
-    margin-bottom: 260px;
+#conectsContainer .letterContainer {
+    margin-top: 0;
+    height: 100%;
     margin-left: 100px;
+
+}
+
+.letterContainer img {
+    width: 30vw;
 }
 
 #conectsContainer form {
-    /* margin-top: 50px; */
-    /* margin-right: 50px; */
-    text-align: right;
+    width: 40vw;
 }
 
 #conectsContainer form h3 {
     font: normal normal 900 36px/53px 'Heebo';
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 #conectsContainer form p {
-    width: 548px;
+    width: 100%;
     height: 58px;
     font: normal normal normal 20px/29px 'Heebo';
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 #conectsContainer form label {
@@ -309,16 +341,28 @@ header .textHeader p {
 }
 
 #conectsContainer form input {
-    width: 548px;
+    width: 100%;
     height: 50px;
     margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    text-align: right;
 }
 
-#conectsContainer form #lastInput {
+textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 1.6rem;
+}
+
+/* #conectsContainer form #text {
+    align-items: start;
     height: 100px;
-}
+} */
 
-#conectsContainer input[type=button] {
+#conectsContainer #submit {
     width: 166px;
     height: 50px;
     background: #1AE0EC 0% 0% no-repeat padding-box;
@@ -327,6 +371,13 @@ header .textHeader p {
     letter-spacing: 0.33px;
     color: #2C2C2C;
     text-align: center;
+    box-shadow: hsl(241, 100%, 18%) 0 3px 3px;
+    cursor: pointer;
+}
+
+#conectsContainer #submit:hover {
+    width: 170px;
+    height: 52px;
 }
 
 footer {

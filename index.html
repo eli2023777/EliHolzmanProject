@@ -23,10 +23,11 @@
 
 
             <ul class="navBar">
-                <li><a href="#">צור קשר</a></li>
-                <li><a href="#onMe">שירותים</a></li>
-                <li><a href="#projectsContainer">אודות</a></li>
-                <li><a href="#conectsContainer">ראשי</a></li>
+                <li><a href="#conectsContainer">צור קשר</a></li>
+                <li><a href="#projectsContainer">שירותים</a></li>
+                <li><a href="#onMe">אודות</a></li>
+                <li><a href="#">ראשי</a></li>
+
             </ul>
 
             <div class="navBarMobile">
@@ -238,19 +239,24 @@
 
         <!-- contact -->
         <div id="conectsContainer">
-            <img src="images/letter.png" alt="Letter">
-            <form>
+            <div class="letterContainer">
+                <img src="images/letter.png" alt="Letter">
+            </div>
+            <form action="http://formsubmit.co/eli770440@gmail.com" method="post" id="form">
                 <h3>צור קשר</h3>
                 <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכ.</p>
                 <label>שם מלא</label><br>
-                <input type="text"><br>
+                <input type="text" name="name" id="name"><br>
                 <label>דוא"ל</label><br>
-                <input type="email"><br>
+                <input type="email" name="email" id="email"><br>
                 <label>טלפון</label><br>
-                <input type="phone"><br>
+                <input type="phone" name="phone" id="phone"><br>
                 <label>תוכן ההודעה</label><br>
-                <input type="text" id="lastInput"><br>
-                <input type="button" value="שליחה">
+                <textarea name="message"></textarea><br><br>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://">
+                <input type="hidden" name="_template" value="table">
+                <button type="submit" id="submit">שליחה</button>
             </form>
         </div>
 
@@ -290,11 +296,6 @@
                         <img src="images/icons/Icon awesome-linkedin-in.png" alt="awesome-linkedin">
                     </a>
                     <p>Eli Holzman</p>
-                </div>
-                <!-- facebook -->
-                <!-- <div class="iconContainer"><img src="images/icons/Icon awesome-facebook-f.png" alt="awesome-facebook">
-                    <p>Eli Holzman</p>
-                </div> -->
             </nav>
         </footer>
 
