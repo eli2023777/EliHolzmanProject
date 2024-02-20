@@ -2,11 +2,152 @@
 const signUpBtn = document.getElementById('signUpBtn') as HTMLButtonElement;
 const signInBtn = document.getElementById('signInBtn') as HTMLButtonElement;
 
+const tableBody = document.getElementById('tableBody');
 
 const userArr: object[] = [];
 
-let users = localStorage.getItem('users');
+// Save data to local storage
+const saveToLocalstorage = (key: string, data: any) => {
+    localStorage.setItem(key, JSON.stringify(data));
+};
 
+// Get data from local storage
+const getFromLocalStorage = (key: string): any | null => {
+    const storedData = localStorage.getItem(key);
+    if (storedData)
+        return JSON.parse(storedData);
+};
+
+// Load the table from local storage
+const loadTableFromLocalStorage = () => {
+    const storedUserArr = getFromLocalStorage('userArr');
+    if (storedUserArr) {
+        userArr.push(...storedUserArr);
+        for (const user of storedUserArr) {
+            const status = 'Connected'; // Assuming initial status is always connected
+            addRowToTable(user as User, status);
+        }
+    }
+};
+
+
+
+
+// Function to add a row to the table
+const addRowToTable = (user: User, status: string) => {
+    const tr = document.createElement('tr');
+    tableBody?.appendChild(tr);
+    tr.innerHTML += `
+    <td class="fNameCell"> ${user.fName} <br/></td>
+    <td class="lNameCell"> ${user.lName} <br/></td>
+    <td class="emailCell">${user.email} <br/></td>
+    <td class="passwordCell">${user.password} <br/></td>
+    <td class="statusCell">${status}</td>
+    <td><button class="disconnectBtn">Disconnect</button></td>
+    <td><button class="deleteBtn">Delete</button></td>
+    <td><button class="editBtn">Edit</button></td>
+    `;
+
+    // Delete buttons
+    const deleteBtn = tr.querySelector('.deleteBtn');
+    if (deleteBtn != null) {
+        deleteBtn.addEventListener('click', () => {
+            tr.remove();
+
+        });
+    } else {
+        alert(`Couldn't find the Delete button`);
+    }
+
+
+    // Disconect buttons
+    const disconnectBtn: HTMLButtonElement | null = tr.querySelector('.disconnectBtn');
+
+    if (disconnectBtn != null) {
+        disconnectBtn.addEventListener('click', () => {
+            status = 'Disconnected';
+
+            const statusCell = tr.querySelector('.statusCell');
+            if (statusCell != null) {
+                statusCell.innerHTML = status;
+            } else {
+                alert(`Couldn't find the status cell`);
+            }
+
+            // Remove the disconnect button after clicking it
+            disconnectBtn.disabled = true;
+
+        });
+    } else {
+        alert(`Couldn't find the Disconnect button`);
+    }
+
+    // Edit buttons
+    const editBtn = tr.querySelector('.editBtn');
+    if (editBtn) {
+        editBtn.addEventListener('click', () => {
+
+            const fNameCell = tr.querySelector('.fNameCell');
+            if (user.fName !== null) {
+                if (fNameCell != null) {
+                    const newFirstName = prompt('Enter the new first name', user.fName);
+                    user.fName = newFirstName ?? '';
+                    if (newFirstName !== null) {
+                        fNameCell.innerHTML = newFirstName;
+                    }
+                }
+            } else {
+                alert(`Couldn't find the first name`);
+            }
+
+            const lNameCell = tr.querySelector('.lNameCell');
+            if (user.lName) {
+                if (lNameCell) {
+                    const newLastName = prompt('Enter the new last name', user.lName);
+                    user.lName = newLastName ?? '';
+                    if (newLastName) {
+                        lNameCell.innerHTML = newLastName;
+                    }
+                }
+            } else {
+                alert(`Couldn't find the last name`);
+            };
+
+            const emailCell = tr.querySelector('.emailCell');
+            if (user.email) {
+                if (emailCell) {
+                    const newEmail = prompt('Enter the new email', user.email);
+                    user.email = newEmail ?? '';
+                    if (newEmail) {
+                        emailCell.innerHTML = newEmail;
+                    }
+                }
+            } else {
+                alert(`Couldn't find the email`);
+            }
+
+            const passwordCell = tr.querySelector('.passwordCell');
+            if (user.password) {
+                if (passwordCell) {
+                    const newPassword = prompt('Enter the new password', user.password);
+                    user.password = newPassword ?? '';
+                    if (newPassword) {
+                        passwordCell.innerHTML = newPassword;
+                    }
+                }
+            } else {
+                alert(`Couldn't find the password`);
+            }
+
+        })
+
+    }
+
+    saveUserInArr(user);
+};
+
+// Load table on page load
+loadTableFromLocalStorage();
 
 
 // User interface 
@@ -16,6 +157,13 @@ type User = {
     email: string;
     password: string;
 };
+
+
+const saveTableToLocalStorage = () => {
+    saveToLocalstorage('userArr', userArr);
+};
+
+
 
 
 // Sign Up function
@@ -31,7 +179,7 @@ const signUp = (user: User) => {
     let status = 'Connected';
     // Create a table row
     const tr = document.createElement('tr');
-    document.getElementById('tableBody')?.appendChild(tr);
+    tableBody?.appendChild(tr);
     tr.innerHTML += `
     <td class="fNameCell"> ${user.fName} <br/></td>
     <td class="lNameCell"> ${user.lName} <br/></td>
@@ -42,7 +190,6 @@ const signUp = (user: User) => {
     <td><button class="deleteBtn">Delete</button></td>
     <td><button class="editBtn">Edit</button></td>
     `;
-
 
 
     // Delete buttons
@@ -81,7 +228,7 @@ const signUp = (user: User) => {
 
     // Edit buttons
     const editBtn = tr.querySelector('.editBtn');
-    if (editBtn != null) {
+    if (editBtn) {
         editBtn.addEventListener('click', () => {
 
             const fNameCell = tr.querySelector('.fNameCell');
@@ -98,11 +245,11 @@ const signUp = (user: User) => {
             }
 
             const lNameCell = tr.querySelector('.lNameCell');
-            if (user.lName !== null) {
-                if (lNameCell != null) {
+            if (user.lName) {
+                if (lNameCell) {
                     const newLastName = prompt('Enter the new last name', user.lName);
                     user.lName = newLastName ?? '';
-                    if (newLastName !== null) {
+                    if (newLastName) {
                         lNameCell.innerHTML = newLastName;
                     }
                 }
@@ -111,11 +258,11 @@ const signUp = (user: User) => {
             };
 
             const emailCell = tr.querySelector('.emailCell');
-            if (user.email !== null) {
-                if (emailCell != null) {
+            if (user.email) {
+                if (emailCell) {
                     const newEmail = prompt('Enter the new email', user.email);
                     user.email = newEmail ?? '';
-                    if (newEmail !== null) {
+                    if (newEmail) {
                         emailCell.innerHTML = newEmail;
                     }
                 }
@@ -124,11 +271,11 @@ const signUp = (user: User) => {
             }
 
             const passwordCell = tr.querySelector('.passwordCell');
-            if (user.password !== null) {
-                if (passwordCell != null) {
+            if (user.password) {
+                if (passwordCell) {
                     const newPassword = prompt('Enter the new password', user.password);
                     user.password = newPassword ?? '';
-                    if (newPassword !== null) {
+                    if (newPassword) {
                         passwordCell.innerHTML = newPassword;
                     }
                 }
@@ -139,27 +286,10 @@ const signUp = (user: User) => {
         })
 
     }
-
-
-    // Clear inputs
-    (<HTMLInputElement>document.getElementById('fName')).value = '';
-    (<HTMLInputElement>document.getElementById('lName')).value = '';
-    (<HTMLInputElement>document.getElementById('email')).value = '';
-    (<HTMLInputElement>document.getElementById('password')).value = '';
 }
 
-console.log(userArr);
 
-if (users !== null) {
-    JSON.parse(users);
-    for (let i = 0; i <= users.length; i++) {
-        let user = users[i]
-        console.log(`user: ${user}`);
-        signUp(user);
-    }
-}
-
-if (signUpBtn != null) {
+if (signUpBtn) {
     signUpBtn.addEventListener('click', () => {
         const user: User = {
             fName: (<HTMLInputElement>document.getElementById('fName')).value,
@@ -169,6 +299,7 @@ if (signUpBtn != null) {
         };
         signUp(user);
         console.log(userArr);
+        saveTableToLocalStorage();
     });
 } else {
     alert(`Couldn't find the button`);
@@ -186,16 +317,12 @@ const preventNullValues = (user: User) => {
 const saveUserInArr = (user: User) => {
     userArr.push(user);
     console.log(userArr);
-
-    // Save in local storage 
-    localStorage.setItem('users', JSON.stringify(userArr));
+    localStorage.setItem('userArr', JSON.stringify(userArr));
     return userArr;
 }
 
 
-
-
-// Sign In function
+// Sign In function/
 const signIn = () => {
     // Get the inputs
     const emailSI = (<HTMLInputElement>document.getElementById('emailSI'));
@@ -225,12 +352,11 @@ const signIn = () => {
         } else if (i === userArr.length) {
             alert(`Email or password is incorrect, please try again!`);
         }
+        saveUserInArr(user);
+
     }
 
-    // localStorage.setItem('users', JSON.stringify(userArr));
-
 }
-
 
 
 if (signInBtn != null) {

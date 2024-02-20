@@ -1,57 +1,51 @@
 @media screen and (max-width: 700px) {
 
-    .container {
-        height: 835px;
+    .topNav {
+        gap: 50vw;
     }
-
-    .container,
-    .topNav,
-    header,
-    #onMe,
-    #projectsContainer,
-    #conectsContainer,
-    .iconsContainer,
-    .imgProjectContainer,
-    footer,
-    .underFooter {
-        width: 100vw;
-        margin: auto;
-    }
-
 
     .topNav .navBar {
         display: none;
     }
 
-    .topNav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
     #hamburgerContainer {
         width: 40px;
         height: 50%;
-        /* border: 1px solid #000; */
-        margin-left: 45%;
+        margin-right: 17px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
 
     .navBarMobile {
-        width: 300px;
-        height: 100%;
-        border: 1px solid #000;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        width: 40vw;
+        height: 40vh;
+        list-style-type: none;
+        background-color: rgba(255, 255, 255, 0.947);
+        font-size: 1.7rem;
+        padding: 3%;
+        direction: rtl;
+    }
+
+    .navBarMobile #mobileUl {
         list-style-type: none;
     }
 
-    .navBarMobile {
-        display: none;
+    .navBarMobile #mobileUl li {
+        margin-bottom: 20px;
+        text-align: center;
     }
 
+    .navBarMobile #mobileUl li a {
+        text-decoration: none;
+        color: black;
+    }
+
+
     .hamburger {
-        /* display: block; */
         width: 39px;
         height: 5px;
         background-color: #13E8F163;
@@ -68,7 +62,6 @@
         margin-left: 17px;
         text-align: center;
         align-items: center;
-        position: static;
         gap: 10px;
     }
 
@@ -89,17 +82,8 @@
         height: 331px;
     }
 
-    header .textHeader {
-        width: 351px;
-        height: 190px;
-        text-align: center;
-    }
-
     header .textHeader h1 {
-        width: 260px;
-        height: 67px;
         font: normal normal 900 46px/67px Heebo;
-        letter-spacing: 0px;
     }
 
     header .textHeader p {
@@ -131,8 +115,6 @@
     }
 
 
-
-
     .iconsContainer br {
         display: block;
     }
@@ -143,7 +125,7 @@
     }
 
     #onMe {
-        height: 757px;
+        height: 650px;
     }
 
     #onMe img {
@@ -153,55 +135,44 @@
         height: 139px;
     }
 
-    #onMe h2 {
-        top: 781px;
-        left: 146px;
-        width: 100px;
-        height: 37px;
+    .textOnMe h2 {
         font: normal normal 900 25px/37px Heebo;
     }
 
-    #onMe p {
+    .textOnMe p {
         top: 840px;
         left: 35px;
         width: 323px;
-        height: 286px;
+        height: 200px;
         font: normal normal normal 15px/22px Heebo;
     }
 
-    #onMe button {
-        top: 1147px;
-        left: 129px;
+    .textOnMe button {
         width: 135px;
         height: 28px;
         font: normal normal 10px/19px Heebo;
     }
 
     #projectsContainer {
-        height: 3179px;
+        height: 3080px;
+        padding: 0;
+        padding-top: 100px;
     }
 
-    #projectsContainer h2 {
-        top: 1357px;
-        left: 107px;
-        width: 165px;
-        height: 37px;
+    .textProjects h2 {
         font: normal normal 900 25px/37px Heebo;
     }
 
-    #projectsContainer #mainP {
-        top: 1404px;
-        left: 20px;
-        width: 349px;
-        height: 44px;
+    .textProjects #mainP {
+        width: 60vw;
+        margin: auto;
         font: normal normal normal 15px/22px Heebo;
     }
 
     #projectsContainer .gridContainer {
-        top: 1497px;
-        left: 19px;
-        width: 343px;
+        width: 350px;
         height: 2838px;
+        margin-top: 80px;
         display: block;
         margin-bottom: 81px;
     }
@@ -209,11 +180,10 @@
     #projectsContainer .gridContainer .card {
         width: 342px;
         height: 438px;
-        margin-bottom: 42px;
+        margin-bottom: 50px;
     }
 
     .card img {
-        width: 342px;
         height: 189px;
     }
 
@@ -232,9 +202,6 @@
         font: normal normal normal 14px/22px Heebo;
     }
 
-    .card .iconsCardContainer {
-        margin-left: 116px;
-    }
 
     .card .iconsCardContainer img {
         width: 22px;
@@ -249,63 +216,56 @@
     }
 
     #conectsContainer {
-        height: 642px;
+        flex-direction: column;
+        height: 900px;
     }
 
-    #conectsContainer h3 {
-        top: 4619px;
-        left: 257px;
-        position: absolute;
-        width: 95px;
-        height: 37px;
-        font: normal normal 900 25px/37px 'Heebo';
+    #conectsContainer .letterContainer {
+        height: 18%;
+        margin-bottom: 70px;
     }
 
-    #conectsContainer p {
-        top: 4665px;
-        left: 41px;
-        position: absolute;
-        width: 310px;
-        height: 44px;
-        font: normal normal normal 15px/22px 'Heebo';
+    .letterContainer img {
+        width: 50vw;
     }
 
     #conectsContainer form {
-        top: 4741px;
-        left: 41px;
         width: 310px;
         height: 230px;
     }
 
+    #conectsContainer form h3 {
+        font: normal normal 900 25px/37px 'Heebo';
+        margin-bottom: 5px;
+    }
+
+    #conectsContainer form p {
+        font: normal normal normal 15px/22px 'Heebo';
+        margin-bottom: 25px;
+    }
+
     #conectsContainer form label {
-        width: 44px;
-        height: 18px;
         font: normal normal bold 12px/18px 'Heebo';
     }
 
     #conectsContainer form input {
-        width: 310px;
+        width: 100%;
         height: 28px;
         margin-bottom: 5px;
+        font-size: 17px;
     }
 
-    #conectsContainer form #lastInput {
-        height: 57px;
+    #conectsContainer form textarea {
+        font-size: 17px;
     }
 
-    #conectsContainer button {
-        top: 4995px;
-        left: 257px;
+    #conectsContainer #submit {
         width: 94px;
         height: 28px;
         font: normal normal bold 12px/16px 'Heebo';
         letter-spacing: 0.18px;
     }
 
-    #conectsContainer img {
-        width: 185px;
-        height: 161px;
-    }
 
     footer {
         height: 428px;
@@ -326,7 +286,7 @@
 
     .underFooter {
         height: 29px;
-        gap: 200px;
+        gap: 70vw;
     }
 
     .underFooter p {
@@ -334,16 +294,12 @@
     }
 
     .underFooter .leftP {
-        width: 100px;
-        height: 13px;
         font: normal normal normal 9px/13px Heebo;
         letter-spacing: 0.23px;
         margin-left: 8px;
     }
 
     .underFooter .rightP {
-        width: 90px;
-        height: 13px;
         font: normal normal 300 9px/13px Heebo;
         letter-spacing: 0px;
         margin-right: 8px;

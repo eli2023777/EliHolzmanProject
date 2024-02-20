@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
 }
 
+.container,
 .topNav,
 header,
 #onMe,
@@ -17,15 +18,12 @@ header,
 footer,
 .underFooter {
     width: 100vw;
-}
-
-.container {
-    width: 100vw;
-    /* overflow-x: hidden; */
+    margin: auto;
 }
 
 
 .topNav {
+    width: 100vw;
     top: 0;
     height: 80px;
     position: sticky;
@@ -34,7 +32,7 @@ footer,
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 45vw;
+    gap: 48vw;
 
 }
 
@@ -144,6 +142,7 @@ header .textHeader p {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    z-index: 1;
 }
 
 
@@ -223,7 +222,7 @@ header .textHeader p {
 
 
 .card img {
-    width: 405px;
+    width: 100%;
     height: 223px;
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
@@ -236,9 +235,8 @@ header .textHeader p {
 }
 
 .card h3 {
-    width: 140px;
+    width: 100%;
     height: 34px;
-    margin-left: 138px;
     margin-top: 37px;
     text-align: center;
     font-family: "Heebo";
@@ -257,19 +255,18 @@ header .textHeader p {
     color: #3A3A3A;
 }
 
-.iconsCardContainer {
-    /* margin-left: 139px; */
+.card .iconsCardContainer {
     display: flex;
     flex-direction: row;
     gap: 6px;
     justify-content: center;
 }
 
-.iconsCardContainer img {
+.card .iconsCardContainer img {
     width: 30px;
     height: 30px;
-    border: #75727223 solid 1px;
 }
+
 
 .card button {
     margin-left: 123px;
@@ -307,7 +304,6 @@ header .textHeader p {
     margin-top: 0;
     height: 100%;
     margin-left: 100px;
-
 }
 
 .letterContainer img {
@@ -357,10 +353,6 @@ textarea {
     font-size: 1.6rem;
 }
 
-/* #conectsContainer form #text {
-    align-items: start;
-    height: 100px;
-} */
 
 #conectsContainer #submit {
     width: 166px;
@@ -383,15 +375,15 @@ textarea {
 footer {
     height: 200px;
     background: #1AE0EC;
-    padding-top: 60px;
+    padding: 50px;
 }
 
 footer nav {
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    justify-content: center;
+    gap: 10vw;
     text-align: center;
-    margin-left: 300px;
 }
 
 footer nav p {
@@ -407,7 +399,7 @@ footer nav p {
     border-bottom: 6px solid #1AE0EC;
     display: flex;
     flex-direction: row;
-    gap: 82%;
+    gap: 75vw;
     align-items: center;
 }
 
