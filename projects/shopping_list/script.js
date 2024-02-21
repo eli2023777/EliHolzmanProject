@@ -71,9 +71,7 @@ const addLi = (value) => {
         ul.removeChild(li);
 
     });
-    // console.log(value);
 
-    // liArr.push(value);
 
 }
 
@@ -85,55 +83,11 @@ const init = () => {
 
 // Add event listener add button
 addBtn.addEventListener('click', () => {
-    // Save to local storages
-    let x = (localStorage.getItem('x'));
-    console.log(x);
-    saveToLocalStorage(x);
-    x++;
-    console.log(x);
-
     let LIinput = document.getElementById('LIinput').value;
     addLi(LIinput, liArr);
 });
 
 
-const saveToLocalStorage = (x) => {
-    localStorage.setItem('x', String(x));
-    // localStorage.setItem(`value${x}`, value);
-};
 
 
 
-
-
-
-
-// function resetEventListeners() {
-//     ulDiv.querySelectorAll('.editBtn').forEach(editBtn => {
-//         editBtn.addEventListener('click', () => {
-//             const textSpan = editBtn.parentElement.previousElementSibling;
-//             textSpan.innerHTML = prompt('Edit your item:', textSpan.textContent);
-//             saveToLocalStorage();
-//             removeEventListeners('click', editBtn);
-//         });
-//     });
-
-//     ulDiv.querySelectorAll('.deleteBtn').forEach(deleteBtn => {
-//         deleteBtn.addEventListener('click', () => {
-//             ul.removeChild(deleteBtn.parentElement.parentElement);
-//             saveToLocalStorage();
-//         });
-//     });
-
-//     ulDiv.querySelectorAll('.checkbox').forEach(checkbox => {
-//         checkbox.addEventListener('change', () => {
-//             const textSpan = checkbox.nextElementSibling;
-//             if (checkbox.checked) {
-//                 textSpan.style.textDecoration = 'line-through';
-//             } else {
-//                 textSpan.style.textDecoration = 'none';
-//             }
-//             saveToLocalStorage();
-//         });
-//     });
-// }

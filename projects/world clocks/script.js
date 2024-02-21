@@ -66,10 +66,6 @@ function updateUI(data, htmlElementName) {
                 htmlBox.innerHTML = '';
 
             });
-            // htmlBox.removeEventListener('mouseover', flagsEvent());
-
-
-
 
         }
     }
@@ -102,7 +98,7 @@ const countriesNames = ['israel', 'thailand', 'germany', 'iceland', 'japan'];
 async function initStaticClocks() {
     for (const countryName of countriesNames) {
         const data = await timezoneObjs(countryName);
-        const outputSI = setInterval(() => { updateUI(data, countryName); }, 1000);
+        setInterval(() => { updateUI(data, countryName); }, 1000);
     }
 }
 
