@@ -16,6 +16,7 @@ async function timezoneObjs(countryName) {
 function updateUI(data, htmlElementName) {
     let htmlContent = '';
     let seenKeys = {};
+
     for (let timezoneObj of data) {
 
         const timezoneObjsArr = timezoneObj.timezones;
@@ -49,13 +50,27 @@ function updateUI(data, htmlElementName) {
 
             htmlContent += localTimeWithOffset.toLocaleTimeString('en-GB');
 
+            const htmlBox = document.getElementById(htmlElementName)
             if (htmlElementName === 'output') {
                 const countryInput = document.getElementById('countryInput');
-                document.getElementById(htmlElementName).innerHTML = `${countryInput.value}<br/></br>${htmlContent}`;
+                htmlBox.innerHTML = `${countryInput.value}<br/></br>${htmlContent}`;
                 console.log(htmlElementName);
             } else {
-                document.getElementById(htmlElementName).innerHTML = `${htmlElementName}<br/></br>${htmlContent}`;
+                htmlBox.innerHTML = `${htmlElementName}<br/></br>${htmlContent}`;
             }
+
+            htmlBox.addEventListener('mouseover', flagsEvent = () => {
+                const flag = timezoneObj.flags.png;
+                const flagsDiv = document.getElementById('flagsDiv');
+                flagsDiv.style.backgroundImage = `url(${flag})`;
+                htmlBox.innerHTML = '';
+
+            });
+            // htmlBox.removeEventListener('mouseover', flagsEvent());
+
+
+
+
         }
     }
 }
@@ -66,6 +81,7 @@ async function main() {
     const outputSI = setInterval(() => {
         try {
             updateUI(data, 'output');
+            document.getElementById('output').style.display = 'block';
             document.getElementById('reload').style.display = 'block';
             document.getElementById('enterContainer').style.display = 'none';
         } catch (e) {
@@ -86,7 +102,7 @@ const countriesNames = ['israel', 'thailand', 'germany', 'iceland', 'japan'];
 async function initStaticClocks() {
     for (const countryName of countriesNames) {
         const data = await timezoneObjs(countryName);
-        setInterval(() => { updateUI(data, countryName); }, 1000);
+        const outputSI = setInterval(() => { updateUI(data, countryName); }, 1000);
     }
 }
 
