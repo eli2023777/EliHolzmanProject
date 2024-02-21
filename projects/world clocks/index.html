@@ -10,29 +10,36 @@
 </head>
 
 <body>
-    <h1>World clocks</h1>
-    <div id="output"></div>
-
-    <label for="">Enter your country:</label>
-    <input type="text" value="e.g. usa" id="countryInput">
-    <input type="button" value="Send" onclick="main()">
-
-
+    <div class="bgImg"></div>
     <div class="container">
-        <div class="box" id="israel">
-            <!-- Israel -->
+        <h1>World clock</h1>
+
+        <div class="enterContainer" id="enterContainer">
+            <label for="">Enter your country:</label>
+            <input type="text" value="e.g. israel" id="countryInput">
+            <input type="button" value="Send" id="send"><br /><br />
         </div>
-        <div class="box" id="french">
-            <!-- French -->
-        </div>
-        <div class="box" id="uk">
-            <!-- UK -->
-        </div>
-        <div class="box" id="usa">
-            <!-- USA -->
-        </div>
-        <div class="box" id="japan">
-            <!-- Japan -->
+
+        <div id="output"></div>
+        <button id="reload" onclick="location.reload()">Change country</button>
+
+
+        <div class="boxesContainer">
+            <div class="box" id="israel">
+                <!-- Israel -->
+            </div>
+            <div class="box" id="thailand">
+                <!-- thailand -->
+            </div>
+            <div class="box" id="germany">
+                <!-- germany -->
+            </div>
+            <div class="box" id="iceland">
+                <!-- iceland -->
+            </div>
+            <div class="box" id="japan">
+                <!-- Japan -->
+            </div>
         </div>
     </div>
 </body>
